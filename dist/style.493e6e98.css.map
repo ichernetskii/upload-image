@@ -1,1 +1,0 @@
-{"version":3,"sources":["style/style.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"style.493e6e98.css","sourceRoot":"..","sourcesContent":["body {\r\n    background: #666;\r\n}\r\n\r\n.container {\r\n    padding-top: 5rem;\r\n    width: 800px;\r\n    margin: 0 auto;\r\n}\r\n"]}
