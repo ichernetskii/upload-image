@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("/Raleway-Regular.eb158b88.woff2");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("/Raleway-Bold.892e13bb.woff2");
+  font-weight: bold;
+}
+@supports (font-variation-settings: normal) {
+  @font-face {
+    font-family: "Raleway";
+    src: url("/Raleway-VF.9e791109.woff2") format("woff2 supports variations"), url("/Raleway-VF.9e791109.woff2") format("woff2-variations");
+    font-weight: 100 1000;
+  }
+}
+body {
+  background: #CCC;
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+.container {
+  padding-top: 5rem;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 4px;
+  background-color: #FFF;
+  padding: 1em;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  color: #42b983;
+  position: relative;
+  border-radius: 100px;
+  border: 1px solid #42b983;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5em 1.5em;
+  font-weight: 700;
+  outline: none;
+  background-color: #FFF;
+  transition: all 0.22s;
+  cursor: pointer;
+  margin-right: 1em;
+  font-family: "Raleway", Arial, sans-serif;
+}
+.btn_primary {
+  background-color: #42b983;
+  color: #FFF;
+}
+.btn:active {
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+.file {
+  display: none;
+}
+
+/*# sourceMappingURL=/app.c3f9f951.css.map */

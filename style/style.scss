@@ -1,0 +1,54 @@
+@import "./font.scss";
+@import "./variables.scss";
+
+body {
+    background: #CCC;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+.container {
+    padding-top: 5rem;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    border-radius: 4px;
+    background-color: #FFF;
+    padding: 1em;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    color: $color-accent;
+    position: relative;
+    border-radius: 100px;
+    border: 1px solid $color-accent;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5em 1.5em;
+    font-weight: 700;
+    outline: none;
+    background-color: #FFF;
+    transition: all 0.22s;
+    cursor: pointer;
+    margin-right: 1em;
+    font-family: "Raleway", Arial, sans-serif;
+
+    &_primary {
+        background-color: $color-accent;
+        color: #FFF;
+    }
+
+    &:active {
+        box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.3);
+    }
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.file {
+    display: none;
+}
