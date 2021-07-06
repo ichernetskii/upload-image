@@ -2,7 +2,8 @@
   "name": "upload-image",
   "private": true,
   "scripts": {
-    "watch": "parcel index.html"
+    "watch": "parcel index.html",
+    "prod": "parcel build index.html"
   },
   "author": "Ilia Chernetskii <ilya.chernetsky@gmail.com>",
   "license": "ISC",
